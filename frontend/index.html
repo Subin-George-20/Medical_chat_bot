@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RAG Chatbot</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="app-container">
+
+    <!-- Header -->
+    <div id="header">
+        MED CHAT BOT
+    </div>
+
+    <div id="main">
+
+        <!-- Sidebar -->
+        <div id="sidebar">
+            <h3>Chats</h3>
+            <!-- empty for now -->
+        </div>
+
+        <!-- Chat Section -->
+        <div id="chat-container">
+            <div id="chat"></div>
+
+            <div id="input-area">
+                <input id="question" placeholder="Ask something..." />
+                <button onclick="send()">Send</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="/static/app.js"></script>
+
+</body>
+</html>
